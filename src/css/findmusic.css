@@ -1,0 +1,26 @@
+.tab-head{
+  text-align: center;
+}
+.tab-list{
+  height: 45px;
+  background: rgb(242, 242, 242);
+  margin: 0 auto;
+}
+.tab-list li{
+  display:inline;
+  cursor: pointer;
+  height: 41px;
+  line-height: 45px;
+  padding: 0 30px 10px ;
+  color: #000000;
+  list-style: none;
+}
+.tab-list li:hover{
+  color: rgb(255, 48, 73);
+}
+.tab-list li.active{
+  border-bottom: 4px solid rgb(255, 48, 73);
+}
+.active{
+  color: rgb(255, 48, 73);
+}
